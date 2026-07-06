@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS 
+        main.c
+        drivers/bno_driver.c
+        drivers/TMC5160_driver.c
+        drivers/servo.c
+        drivers/ADS1115.c
+        drivers/VL53L0X_driver.c
+        data_types/balance.c
+    INCLUDE_DIRS
+        .
+        data_types
+        drivers
+)
